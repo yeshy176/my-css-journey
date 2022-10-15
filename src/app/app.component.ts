@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-css-journey';
+  css: boolean = true;
+
+  switchToCss() {
+    this.css = true;
+  }
 }
